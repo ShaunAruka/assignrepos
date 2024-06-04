@@ -1,0 +1,117 @@
+body {
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    overflow: hidden;
+
+}
+li{
+    float: left;
+    background-color: lightgray;
+    font-size: 25px;
+    align-content: center;
+
+
+}
+li a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-family: "Algerian";
+    margin: 30px;
+    
+
+
+
+}
+
+li a:hover{
+    background-color: papayawhip;
+}
+#advert1{
+    margin: 50px;
+    padding: 25px;
+    text-align: center;
+}
+#advert1:hover{
+    background-color: lightgray;
+}
+#advert2{
+    margin: 50px;
+    padding: 25px;
+    text-align: center;
+}
+#advert2:hover{
+    background-color: lightgray;
+}
+#advert3{
+    margin: 50px;
+    padding: 25px;
+    text-align: center;
+}
+#advert3:hover{
+    background-color: lightgray;
+}
+#advert1,#advert2,#advert3{
+    border: solid 30px;
+}
+h1{
+    font-family: Papyrus;
+    text-align: center;
+}
+h4{
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+}
+p{
+    text-align: center;
+    color: darkslategrey;
+    font-size: 40px;
+    font: bold;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+th,td{
+    border: solid 15px saddlebrown;
+    padding: 15px;
+    margin: 15px;
+    font-family: cursive;
+    font-size: 25px;
+    color: yellow;
+}
+form{
+    margin: 150px;
+    font-size: 40px;
+    font-family: Papyrus;
+    color: ghostwhite;
+    border: solid 30px;
+    padding: 40px;
+}
+input{
+    block-size: 60px;
+    font-size: 50px;
+    circle: 40px;
+}
+input[type="submit"]{
+    font-family: Papyrus;
+    color: darkgreen;
+    block-size: 75px;
+}
+input[type="submit"]:hover{
+    background-color: darkseagreen;
+}
+form:hover{
+    background-color: darkslategrey;
+}
+
